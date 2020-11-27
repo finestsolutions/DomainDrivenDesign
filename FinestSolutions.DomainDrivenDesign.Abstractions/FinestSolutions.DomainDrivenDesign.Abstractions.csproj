@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Library supporting Domain-driven design</Description>
+    <Company />
+    <Authors>Mateusz Westrych</Authors>
+    <Version>0.0.0.3</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Product>FinestSolutions.DomainDrivenDesign</Product>
+    <PackageProjectUrl>https://github.com/finestsolutions/DomainDrivenDesign</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/finestsolutions/DomainDrivenDesign</RepositoryUrl>
+    <RepositoryType></RepositoryType>
+    <Copyright>Mateusz Westrych</Copyright>
+    <PackageTags>DDD Domain-driven design</PackageTags>
+    <AssemblyVersion>0.0.0.3</AssemblyVersion>
+    <FileVersion>0.0.0.3</FileVersion>
+    <PackageId>FinestSolutions.DomainDrivenDesign.Abstractions</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CSharpFunctionalExtensions" Version="2.13.0" />
+  </ItemGroup>
+
+</Project>
